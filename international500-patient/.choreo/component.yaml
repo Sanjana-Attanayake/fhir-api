@@ -1,0 +1,12 @@
+schemaVersion: 1.1
+endpoints:
+    - name: international500-patient-api
+      displayName: international500 Patient API
+      service:
+        basePath: /fhir/r5/Patient
+        port: 9090
+      type: REST
+      networkVisibilities:
+        - Project
+        - Public
+      schemaFilePath: oas/Patient.yaml
