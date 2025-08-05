@@ -1,0 +1,202 @@
+schemaVersion: 1.1
+endpoints:
+    - name: uscore501-condition-api
+      displayName: uscore501 Condition API
+      service:
+        basePath: /fhir/r4/Condition/Condition
+        port: 9090
+      type: REST
+      networkVisibilities:
+        - Project
+        - Public
+      schemaFilePath: oas/Condition.yaml
+    - name: uscore501-provenance-api
+      displayName: uscore501 Provenance API
+      service:
+        basePath: /fhir/r4/Provenance/Provenance
+        port: 9090
+      type: REST
+      networkVisibilities:
+        - Project
+        - Public
+      schemaFilePath: oas/Provenance.yaml
+    - name: uscore501-immunization-api
+      displayName: uscore501 Immunization API
+      service:
+        basePath: /fhir/r4/Immunization/Immunization
+        port: 9090
+      type: REST
+      networkVisibilities:
+        - Project
+        - Public
+      schemaFilePath: oas/Immunization.yaml
+    - name: uscore501-medicationrequest-api
+      displayName: uscore501 MedicationRequest API
+      service:
+        basePath: /fhir/r4/MedicationRequest/MedicationRequest
+        port: 9090
+      type: REST
+      networkVisibilities:
+        - Project
+        - Public
+      schemaFilePath: oas/MedicationRequest.yaml
+    - name: uscore501-organization-api
+      displayName: uscore501 Organization API
+      service:
+        basePath: /fhir/r4/Organization/Organization
+        port: 9090
+      type: REST
+      networkVisibilities:
+        - Project
+        - Public
+      schemaFilePath: oas/Organization.yaml
+    - name: uscore501-careteam-api
+      displayName: uscore501 CareTeam API
+      service:
+        basePath: /fhir/r4/CareTeam/CareTeam
+        port: 9090
+      type: REST
+      networkVisibilities:
+        - Project
+        - Public
+      schemaFilePath: oas/CareTeam.yaml
+    - name: uscore501-device-api
+      displayName: uscore501 Device API
+      service:
+        basePath: /fhir/r4/Device/Device
+        port: 9090
+      type: REST
+      networkVisibilities:
+        - Project
+        - Public
+      schemaFilePath: oas/Device.yaml
+    - name: uscore501-diagnosticreport-api
+      displayName: uscore501 DiagnosticReport API
+      service:
+        basePath: /fhir/r4/DiagnosticReport/DiagnosticReport
+        port: 9090
+      type: REST
+      networkVisibilities:
+        - Project
+        - Public
+      schemaFilePath: oas/DiagnosticReport.yaml
+    - name: uscore501-patient-api
+      displayName: uscore501 Patient API
+      service:
+        basePath: /fhir/r4/Patient/Patient
+        port: 9090
+      type: REST
+      networkVisibilities:
+        - Project
+        - Public
+      schemaFilePath: oas/Patient.yaml
+    - name: uscore501-practitionerrole-api
+      displayName: uscore501 PractitionerRole API
+      service:
+        basePath: /fhir/r4/PractitionerRole/PractitionerRole
+        port: 9090
+      type: REST
+      networkVisibilities:
+        - Project
+        - Public
+      schemaFilePath: oas/PractitionerRole.yaml
+    - name: uscore501-practitioner-api
+      displayName: uscore501 Practitioner API
+      service:
+        basePath: /fhir/r4/Practitioner/Practitioner
+        port: 9090
+      type: REST
+      networkVisibilities:
+        - Project
+        - Public
+      schemaFilePath: oas/Practitioner.yaml
+    - name: uscore501-careplan-api
+      displayName: uscore501 CarePlan API
+      service:
+        basePath: /fhir/r4/CarePlan/CarePlan
+        port: 9090
+      type: REST
+      networkVisibilities:
+        - Project
+        - Public
+      schemaFilePath: oas/CarePlan.yaml
+    - name: uscore501-allergyintolerance-api
+      displayName: uscore501 AllergyIntolerance API
+      service:
+        basePath: /fhir/r4/AllergyIntolerance/AllergyIntolerance
+        port: 9090
+      type: REST
+      networkVisibilities:
+        - Project
+        - Public
+      schemaFilePath: oas/AllergyIntolerance.yaml
+    - name: uscore501-goal-api
+      displayName: uscore501 Goal API
+      service:
+        basePath: /fhir/r4/Goal/Goal
+        port: 9090
+      type: REST
+      networkVisibilities:
+        - Project
+        - Public
+      schemaFilePath: oas/Goal.yaml
+    - name: uscore501-observation-api
+      displayName: uscore501 Observation API
+      service:
+        basePath: /fhir/r4/Observation/Observation
+        port: 9090
+      type: REST
+      networkVisibilities:
+        - Project
+        - Public
+      schemaFilePath: oas/Observation.yaml
+    - name: uscore501-medication-api
+      displayName: uscore501 Medication API
+      service:
+        basePath: /fhir/r4/Medication/Medication
+        port: 9090
+      type: REST
+      networkVisibilities:
+        - Project
+        - Public
+      schemaFilePath: oas/Medication.yaml
+    - name: uscore501-encounter-api
+      displayName: uscore501 Encounter API
+      service:
+        basePath: /fhir/r4/Encounter/Encounter
+        port: 9090
+      type: REST
+      networkVisibilities:
+        - Project
+        - Public
+      schemaFilePath: oas/Encounter.yaml
+    - name: uscore501-procedure-api
+      displayName: uscore501 Procedure API
+      service:
+        basePath: /fhir/r4/Procedure/Procedure
+        port: 9090
+      type: REST
+      networkVisibilities:
+        - Project
+        - Public
+      schemaFilePath: oas/Procedure.yaml
+    - name: uscore501-documentreference-api
+      displayName: uscore501 DocumentReference API
+      service:
+        basePath: /fhir/r4/DocumentReference/DocumentReference
+        port: 9090
+      type: REST
+      networkVisibilities:
+        - Project
+        - Public
+      schemaFilePath: oas/DocumentReference.yaml
+    - name: uscore501-location-api
+      displayName: uscore501 Location API
+      service:
+        basePath: /fhir/r4/Location/Location
+        port: 9090
+      type: REST
+      networkVisibilities:
+        - Project
+        - Public
+      schemaFilePath: oas/Location.yaml
