@@ -9,7 +9,7 @@ endpoints:
       networkVisibilities:
         - Project
         - Public
-      schemaFilePath: oas/Condition.yaml
+      schemaFilePath: oas/oas-definition.yaml
     - name: uscore501-provenance-api
       displayName: uscore501 Provenance API
       service:
@@ -19,7 +19,7 @@ endpoints:
       networkVisibilities:
         - Project
         - Public
-      schemaFilePath: oas/Provenance.yaml
+      schemaFilePath: oas/oas-definition.yaml
     - name: uscore501-immunization-api
       displayName: uscore501 Immunization API
       service:
@@ -29,7 +29,7 @@ endpoints:
       networkVisibilities:
         - Project
         - Public
-      schemaFilePath: oas/Immunization.yaml
+      schemaFilePath: oas/oas-definition.yaml
     - name: uscore501-medicationrequest-api
       displayName: uscore501 MedicationRequest API
       service:
@@ -39,7 +39,7 @@ endpoints:
       networkVisibilities:
         - Project
         - Public
-      schemaFilePath: oas/MedicationRequest.yaml
+      schemaFilePath: oas/oas-definition.yaml
     - name: uscore501-organization-api
       displayName: uscore501 Organization API
       service:
@@ -49,7 +49,7 @@ endpoints:
       networkVisibilities:
         - Project
         - Public
-      schemaFilePath: oas/Organization.yaml
+      schemaFilePath: oas/oas-definition.yaml
     - name: uscore501-careteam-api
       displayName: uscore501 CareTeam API
       service:
@@ -59,7 +59,7 @@ endpoints:
       networkVisibilities:
         - Project
         - Public
-      schemaFilePath: oas/CareTeam.yaml
+      schemaFilePath: oas/oas-definition.yaml
     - name: uscore501-device-api
       displayName: uscore501 Device API
       service:
@@ -69,7 +69,7 @@ endpoints:
       networkVisibilities:
         - Project
         - Public
-      schemaFilePath: oas/Device.yaml
+      schemaFilePath: oas/oas-definition.yaml
     - name: uscore501-diagnosticreport-api
       displayName: uscore501 DiagnosticReport API
       service:
@@ -79,7 +79,7 @@ endpoints:
       networkVisibilities:
         - Project
         - Public
-      schemaFilePath: oas/DiagnosticReport.yaml
+      schemaFilePath: oas/oas-definition.yaml
     - name: uscore501-patient-api
       displayName: uscore501 Patient API
       service:
@@ -89,7 +89,7 @@ endpoints:
       networkVisibilities:
         - Project
         - Public
-      schemaFilePath: oas/Patient.yaml
+      schemaFilePath: oas/oas-definition.yaml
     - name: uscore501-practitionerrole-api
       displayName: uscore501 PractitionerRole API
       service:
@@ -99,7 +99,7 @@ endpoints:
       networkVisibilities:
         - Project
         - Public
-      schemaFilePath: oas/PractitionerRole.yaml
+      schemaFilePath: oas/oas-definition.yaml
     - name: uscore501-practitioner-api
       displayName: uscore501 Practitioner API
       service:
@@ -109,7 +109,7 @@ endpoints:
       networkVisibilities:
         - Project
         - Public
-      schemaFilePath: oas/Practitioner.yaml
+      schemaFilePath: oas/oas-definition.yaml
     - name: uscore501-careplan-api
       displayName: uscore501 CarePlan API
       service:
@@ -119,7 +119,7 @@ endpoints:
       networkVisibilities:
         - Project
         - Public
-      schemaFilePath: oas/CarePlan.yaml
+      schemaFilePath: oas/oas-definition.yaml
     - name: uscore501-allergyintolerance-api
       displayName: uscore501 AllergyIntolerance API
       service:
@@ -129,7 +129,7 @@ endpoints:
       networkVisibilities:
         - Project
         - Public
-      schemaFilePath: oas/AllergyIntolerance.yaml
+      schemaFilePath: oas/oas-definition.yaml
     - name: uscore501-goal-api
       displayName: uscore501 Goal API
       service:
@@ -139,7 +139,7 @@ endpoints:
       networkVisibilities:
         - Project
         - Public
-      schemaFilePath: oas/Goal.yaml
+      schemaFilePath: oas/oas-definition.yaml
     - name: uscore501-observation-api
       displayName: uscore501 Observation API
       service:
@@ -149,7 +149,7 @@ endpoints:
       networkVisibilities:
         - Project
         - Public
-      schemaFilePath: oas/Observation.yaml
+      schemaFilePath: oas/oas-definition.yaml
     - name: uscore501-medication-api
       displayName: uscore501 Medication API
       service:
@@ -159,7 +159,7 @@ endpoints:
       networkVisibilities:
         - Project
         - Public
-      schemaFilePath: oas/Medication.yaml
+      schemaFilePath: oas/oas-definition.yaml
     - name: uscore501-encounter-api
       displayName: uscore501 Encounter API
       service:
@@ -169,7 +169,7 @@ endpoints:
       networkVisibilities:
         - Project
         - Public
-      schemaFilePath: oas/Encounter.yaml
+      schemaFilePath: oas/oas-definition.yaml
     - name: uscore501-procedure-api
       displayName: uscore501 Procedure API
       service:
@@ -179,7 +179,7 @@ endpoints:
       networkVisibilities:
         - Project
         - Public
-      schemaFilePath: oas/Procedure.yaml
+      schemaFilePath: oas/oas-definition.yaml
     - name: uscore501-documentreference-api
       displayName: uscore501 DocumentReference API
       service:
@@ -189,7 +189,7 @@ endpoints:
       networkVisibilities:
         - Project
         - Public
-      schemaFilePath: oas/DocumentReference.yaml
+      schemaFilePath: oas/oas-definition.yaml
     - name: uscore501-location-api
       displayName: uscore501 Location API
       service:
@@ -199,4 +199,4 @@ endpoints:
       networkVisibilities:
         - Project
         - Public
-      schemaFilePath: oas/Location.yaml
+      schemaFilePath: oas/oas-definition.yaml
