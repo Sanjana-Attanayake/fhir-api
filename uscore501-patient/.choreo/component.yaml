@@ -3,7 +3,7 @@ endpoints:
     - name: uscore501-patient-api
       displayName: uscore501 Patient API
       service:
-        basePath: /Patient
+        basePath: /fhir/r4/Patient
         port: 9090
       type: REST
       networkVisibilities:
